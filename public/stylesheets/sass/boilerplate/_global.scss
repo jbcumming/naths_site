@@ -1,0 +1,37 @@
+// Sass file for the global styling of the HTML pages
+
+// Defines the parameters for the HTML and body
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: $site-font;
+    font-size: $site-fontsize;
+}
+
+// The main container element
+.page-container {
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+    width: $page-width;
+}
+
+.header {
+
+}
+
+.sidebar {
+    float: left;
+    min-height: 100%;
+    height: 100%;
+    width: 200px;
+}
+
+.content {
+    float: right;
+}
+
+.footer {
+
+}

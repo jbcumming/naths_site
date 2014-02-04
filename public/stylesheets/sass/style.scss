@@ -1,4 +1,14 @@
-body {
-  color: #FF0000;
-  background-color: #00FF00;
-}
+// Imports the base variables
+@import "base";
+
+// Imports the global styling
+@import "boilerplate/global";
+
+// Imports all of the modules used (Non-application specific CSS)
+//@import "modules/lighttable";
+
+// Imports all of the abstracts used (Application specific CSS)
+// @import "abstracts/footer";
+
+// Import partial styling (Styling for individual pages)
+// @import "partials/create";
