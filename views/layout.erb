@@ -5,6 +5,7 @@
     <title><%= @title + ' | Naths' %></title>
     <link href="stylesheets/normalize.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="page-container">
@@ -12,26 +13,26 @@
 
       </div>
       <div class="sidebar">
-        <div>
+        <div class="sidebar-item">
           Naths Site + LOGO
         </div>
-        <div>
-          works
+        <div class="sidebar-item">
+          <a href="<%= url('/works') %>">Works</a>
         </div>
-        <div>
-          base grey
+        <div class="sidebar-item">
+          <a href="<%= url('/basegrey') %>">Base Grey</a>
         </div>
-        <div>
-          blog
+        <div class="sidebar-item">
+          <a href="<%= url('/blog') %>">Blog</a>
         </div>
-        <div>
+        <div class="sidebar-item">
           ===========
         </div>
-        <div>
-          about
+        <div class="sidebar-item">
+          <a href="<%= url('/about') %>">About</a>
         </div>
-        <div>
-          contact
+        <div class="sidebar-item">
+          <a href="<%= url('/contact') %>">Contact</a>
         </div>
       </div>
       <div class="content">
