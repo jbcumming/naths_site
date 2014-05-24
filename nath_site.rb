@@ -10,16 +10,6 @@ get '/about' do
   erb :about
 end
 
-get '/basegrey' do
-  @title = "Base Grey"
-  erb :base_grey
-end
-
-get '/blog' do
-  @title = "Blog"
-  erb :blog
-end
-
 get '/works' do
   @title = "Works"
   erb :works

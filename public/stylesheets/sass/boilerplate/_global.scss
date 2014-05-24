@@ -13,12 +13,18 @@ html, body {
 .page-container {
     min-height: 100%;
     position: relative;
+    padding-top: 20px;
     margin: 0 auto;
     width: $page-width;
 }
 
 .header {
 
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
 }
 
 .sidebar {
