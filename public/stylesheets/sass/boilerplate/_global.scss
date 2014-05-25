@@ -7,14 +7,14 @@ html, body {
     height: 100%;
     font-family: $site-font;
     font-size: $site-fontsize;
+    background-color: $site-background;
 }
 
 // The main container element
 .page-container {
     min-height: 100%;
     position: relative;
-    padding-top: 20px;
-    margin: 0 auto;
+    margin: 25px auto;
     width: $page-width;
 }
 
@@ -23,8 +23,9 @@ html, body {
 }
 
 .logo {
-  height: 200px;
-  width: 200px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 25px;
 }
 
 .sidebar {
@@ -37,6 +38,21 @@ html, body {
 .sidebar-item {
     font-size: 20px;
     text-align: center;
+    margin: 3px 0;
+}
+
+.sidebar-item a {
+    text-decoration: none;   
+    color: $site-foreground;
+}
+
+.sidebar-item hr {   
+    width: 35px;
+    border: 1px solid $site-foreground;
+}
+
+.sidebar-item a:hover {
+    color: $link-hover;
 }
 
 .content {
