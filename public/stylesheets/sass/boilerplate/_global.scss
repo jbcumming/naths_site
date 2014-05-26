@@ -2,20 +2,20 @@
 
 // Defines the parameters for the HTML and body
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: $site-font;
-    font-size: $site-fontsize;
-    background-color: $site-background;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: $site-font;
+  font-size: $site-fontsize;
+  background-color: $site-background;
 }
 
 // The main container element
 .page-container {
-    min-height: 100%;
-    position: relative;
-    margin: 25px auto;
-    width: $page-width;
+  min-height: 100%;
+  position: relative;
+  margin: 25px auto;
+  width: $page-width;
 }
 
 .header {
@@ -23,40 +23,48 @@ html, body {
 }
 
 .logo {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 25px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 25px;
 }
 
 .sidebar {
-    float: left;
-    min-height: 100%;
-    height: 100%;
-    width: 200px;
+  float: left;
+  min-height: 100%;
+  height: 100%;
+  width: 200px;
 }
 
 .sidebar-item {
-    font-size: 20px;
-    text-align: center;
-    margin: 3px 0;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 0;
 }
 
 .sidebar-item a {
-    text-decoration: none;   
-    color: $site-foreground;
+  text-decoration: none;   
+  color: $site-foreground;
 }
 
 .sidebar-item hr {   
-    width: 35px;
-    border: 1px solid $site-foreground;
+  width: 35px;
+  margin-top: 9px;
+  margin-bottom: 15px;
+  border: 0;
+  height: 1px;
+  background: $site-foreground;
+  background-image: -webkit-linear-gradient(left, #ccc, $site-foreground, #ccc); 
+  background-image:    -moz-linear-gradient(left, #ccc, $site-foreground, #ccc); 
+  background-image:     -ms-linear-gradient(left, #ccc, $site-foreground, #ccc); 
+  background-image:      -o-linear-gradient(left, #ccc, $site-foreground, #ccc); 
 }
 
 .sidebar-item a:hover {
-    color: $link-hover;
+  color: $link-hover;
 }
 
 .content {
-    float: right;
+  float: right;
 }
 
 .footer {

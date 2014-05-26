@@ -5,7 +5,7 @@
     <title><%= @title + ' | Naths' %></title>
     <link href="stylesheets/normalize.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="page-container">
@@ -15,10 +15,16 @@
 
       <div class="sidebar">
         <div class="sidebar-item">
-          <img src="images/logo.png" class ="logo" alt="Nath's Logo">
+          <img src="images/newlogo.png" class="logo" alt="Nath's Logo">
         </div>
         <div class="sidebar-item">
-          <a href="<%= url('/works') %>">WORKS</a>
+          <a href="<%= url('/') %>"><span style="font-weight: bold; font-style: italic">PPPOSHY</span></a>
+        </div>
+        <div class="sidebar-item">
+          <hr>
+        </div>
+        <div class="sidebar-item">
+          <a href="<%= url('/works') %>">WORK</a>
         </div>
         <div class="sidebar-item">
           <a href="<%= url('/about') %>">ABOUT</a>
@@ -30,19 +36,13 @@
           <hr>
         </div>
         <div class="sidebar-item">
-          <a href="<%= url('http://instagram.com/ppposhy') %>">@ppposhy</a>
+          <a href="<%= url('http://instagram.com/ppposhy') %>">Instagram</a>
+        </div>
+        <div class="sidebar-item">
+          <a href="<%= url('http://www.pinterest.com/ppposhy/') %>">Pinterest</a>
         </div>
         <div class="sidebar-item">
           <a href="<%= url('http://ppposhy.tumblr.com/') %>">Tumblr</a>
-        </div>
-        <div class="sidebar-item">
-          <a href="<%= url('https://www.behance.net/ppposhy') %>">Behance</a>
-        </div>
-        <div class="sidebar-item">
-          <a href="<%= url('http://www.pinterest.com/ppposhy/') %>">Pininterest</a>
-        </div>
-        <div class="sidebar-item">
-          <a href="<%= url('https://soundcloud.com/nath-poshyananda') %>">Soundcloud</a>
         </div>
       </div>
 
