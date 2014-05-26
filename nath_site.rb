@@ -20,6 +20,11 @@ get '/contact' do
   erb :contact
 end
 
+get '/work/:name' do |n|
+  @title = "#{n}"
+  erb :"work/#{n}"
+end
+
 not_found do
   status 404
   "This page was not found!"
